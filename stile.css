@@ -1,0 +1,334 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body > header {background-color: #faf0e6;}
+
+body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #faf0e6;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navMenu {
+    background-color: #eee;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #800000;
+}
+
+.navMenu ul {
+    list-style-type: none;
+}
+
+.navMenu ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.navMenu ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    font-family: 'Comfortaa';
+}
+
+#info {
+    width: 80%;
+    margin: 10px auto auto auto;
+    border-radius: 20px;
+}
+
+article {
+    background-color: #fff;
+    width: 90%;
+    margin: auto auto 20px auto;
+    border-radius: 20px;
+
+}
+
+#info > article {
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+#info > article > div {
+    padding: 20px 40px;
+}
+
+
+article h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#p110 > h2 {
+    background-color: #800000;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+#p156 > h2 {
+    background-color: #800000;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+#p157 > h2 {
+    background-color: #800000;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flexbox div {
+    width: 50%;
+}
+
+.flexbox div img {
+    width: 70%;
+    display: block;
+    margin: 10px auto auto auto;
+}
+
+span b {
+    margin: -10px;
+}
+
+.img {
+    flex: 0 0 50%;
+}
+
+.text {
+    flex: 0 0 50%;
+    padding-left: 20px;
+}
+
+.text span {
+    display: inline-block;
+    width: 20px;
+}
+
+.text b {
+    font-weight: bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+button {
+    margin: 4px;
+}
+
+add {
+    background-color: #ffc107;
+    padding: 0 5px;
+}
+
+gap {
+    background-color: #ff5722;
+    padding: 0 5px;
+}
+
+persname {
+    background-color: #2196f3;
+    padding: 0 5px;
+    color: #fff;
+}
+
+del,
+gap,
+persname,
+add {
+    display: none;
+}
+
+#btn-add {
+    background-color: #ffc107;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-del {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-persname {
+    background-color: #2196f3;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-gap {
+    background-color: #ff5722;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-hide {
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+
+#fenomeni {
+    text-align: center;
+    margin: 70px 20px 20px 20px;
+}
+
+#fenomeni li {
+    list-style-type: none;
+}
+
+
+footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.legend {
+    margin-bottom: 10px;
+}
+
+.legend li {
+    margin-bottom: 5px;
+}
+
+.legend span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.legend .add {
+    background-color: #ffc107;
+}
+
+.legend .del {
+    background-color: #ff5722;
+}
+
+.legend .gap {
+    background-color: #607d8b;
+}
+
+.legend .persname {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    background-color: #800000;
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+body > div.listaBibl {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+body > div.listaBibl > h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+body > div.listaLuoghi {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+body > div.listaLuoghi > h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+#p156 > h2 {
+    margin-top: 50px;
+}
+
+#p157 > h2 {
+    margin-top: 50px;
+}
+
+#p110 > h2 {
+    margin-top: 50px;
+}
+
+#p110 > div > div.img > img {
+    margin-bottom: 20px;
+}
+
+#p156 > div > div.img > img {
+    margin-bottom: 20px;
+}
+
+#p157 > div > div.img > img {
+    margin-bottom: 20px;
+}
+
+#info > article > div > h2:nth-child(2) {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+body > div.listaBibl > li {
+    list-style-type: none;
+}
+
+body > div.listaLuoghi > li {
+    list-style-type: none;
+}
