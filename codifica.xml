@@ -8,11 +8,13 @@
 			<titleStmt>
 				<title xml:lang="it"> Diari di Emanuele Artom </title>
 				<author ref="EA"> Emanuele Artom </author>
-			</titleStmt>
+			</titleStmt>																		<!-- statement =
+			DICHIARAZIONE-->
 			<editionStmt>
 				<edition> Edizione Digitale - <date when="04-2024"> Aprile 2024 </date></edition>
 				<respStmt>
-					<resp> Professore: </resp><name xml:id="AMDG"> Angelo Mario Del Grosso </name>
+					<resp> Professore: </resp>
+					<name xml:id="AMDG"> Angelo Mario Del Grosso </name>
 				</respStmt>
 				<respStmt>
 					<resp> Codifica a cura di: </resp>
@@ -32,7 +34,8 @@
 					<msIdentifier>
 						<country key="IT"> Italia </country>
 						<settlement> Milano </settlement>
-						<repository role="library"> Centro di Documentazione Ebraica Contemporanea - CDEC </repository>
+						<repository role="library"> Centro di Documentazione Ebraica Contemporanea -
+							CDEC </repository>
 					</msIdentifier>
 					<msContents>
 						<msItem>
@@ -44,32 +47,48 @@
 					<physDesc>
 						<objectDesc form="folio">
 							<supportDesc material="paper">
-								<extent> Il materiale consiste in 172 pagine, oltre alle prime 2 pagine che contengono un appunto della signora Amalia Artom sul diario del figlio Emanuele. </extent>
-								<condition> Le pagine sono in condizioni buone, non mostrano danni significativi e ci sono poche cancellature.</condition>
+								<extent> Il materiale consiste in 172 pagine, oltre alle prime 2
+									pagine che contengono un appunto della signora Amalia Artom sul
+									diario del figlio Emanuele. </extent>
+								<condition> Le pagine sono in condizioni buone, non mostrano danni
+									significativi e ci sono poche cancellature.</condition>
 							</supportDesc>
 							<layoutDesc>
 								<layout columns="1" ruledLines="20">
-									<p> Le pagine presentano mediamente 21 righe ciascuna. Talvolta si possono notare cancellature o aggiunte, e non sempre la scrittura è facilmente comprensibile. </p>
+									<p> Le pagine presentano mediamente 21 righe ciascuna. Talvolta
+									si possono notare cancellature o aggiunte, e non sempre la
+									scrittura è facilmente comprensibile. </p>
 								</layout>
 							</layoutDesc>
 						</objectDesc>
 						<typeDesc>
-							<p> Il testo è scritto a mano in corsivo e talvolta può risultare difficile da comprendere. Poiché si tratta di appunti, sono presenti cancellature e aggiunte. 
-								In quanto non destinato alla pubblicazione, non è dotato di una copertina. </p>
+							<p> Il testo è scritto a mano in corsivo e talvolta può risultare
+								difficile da comprendere. Poiché si tratta di appunti, sono presenti
+								cancellature e aggiunte. In quanto non destinato alla pubblicazione,
+								non è dotato di una copertina. </p>
 						</typeDesc>
 					</physDesc>
 					<history>
 						<origin notAfter="04-1944">
-							<p> I diari redatti da Emanuele Artom, accompagnati dalle prime due pagine contenenti la lettera originale di sua madre, Amalia, costituiscono un importante contributo 
-								al contesto storico. La lettera, con l'epigrafe "alla mia morte questo plico deve essere consegnato al Centro di documentazione ebraica [...]", possiede un notevole valore 
-								storico. I diari si suddividono chiaramente in due parti distinte. La prima, che abbraccia il periodo dal 1 gennaio 1940 al 10 settembre 1943, offre interessanti dettagli sulla 
-								vita culturale a Torino in quegli anni e sul progressivo sviluppo della persecuzione razziale. Nel secondo segmento, che spazia dal novembre 1943 al 23 febbraio 1944, si delineano 
-								invece le esperienze partigiane vissute da Emanuele Artom. Questi diari rappresentano un prezioso documento storico che non si limita alla mera cronaca, ma offre una testimonianza 
-								intima di eventi cruciali e di trasformazioni significative nel contesto dell'epoca. </p>
+							<p> I diari redatti da Emanuele Artom, accompagnati dalle prime due
+							pagine contenenti la lettera originale di sua madre, Amalia,
+							costituiscono un importante contributo al contesto storico. La lettera,
+							con l'epigrafe "alla mia morte questo plico deve essere consegnato al
+							Centro di documentazione ebraica [...]", possiede un notevole valore
+							storico. I diari si suddividono chiaramente in due parti distinte. La
+							prima, che abbraccia il periodo dal 1 gennaio 1940 al 10 settembre 1943,
+							offre interessanti dettagli sulla vita culturale a Torino in quegli anni
+							e sul progressivo sviluppo della persecuzione razziale. Nel secondo
+							segmento, che spazia dal novembre 1943 al 23 febbraio 1944, si delineano
+							invece le esperienze partigiane vissute da Emanuele Artom. Questi diari
+							rappresentano un prezioso documento storico che non si limita alla mera
+							cronaca, ma offre una testimonianza intima di eventi cruciali e di
+							trasformazioni significative nel contesto dell'epoca. </p>
 						</origin>
 						<acquisition>
-							<p> Le documentazioni del fondo Emanuele Artom sono state cedute alla Fondazione CDEC in conformità con il desiderio esplicito della madre, Amalia Segre Artom 
-								(vedi busta 1, fascicolo 9). </p>
+							<p> Le documentazioni del fondo Emanuele Artom sono state cedute alla
+							Fondazione CDEC in conformità con il desiderio esplicito della madre,
+							Amalia Segre Artom (vedi busta 1, fascicolo 9). </p>
 						</acquisition>
 					</history>
 				</msDesc>
@@ -80,14 +99,17 @@
 				<language ident="it"> Italiano </language>
 			</langUsage>
 			<textDesc>
-				<channel mode="w" />
-				<constitution type="single" />
-				<derivation type="original" />
-				<domain type="education" />
-				<factuality type="fact" />
+				<channel mode="w" />                <!--canale
+				di comunicazione, w= scritto per comunicazione -->
+				<constitution type="single" />      <!-- Formato da una sola unità-->
+				<derivation type="original" />		<!-- opera originale-->
+				<domain type="education" />			<!-- istruzione-->
+				<factuality type="fact" />			<!-- fatti reali, verificabili-->
 				<interaction type="none" active="singular" passive="self" />
-				<preparedness type="none" />
-				<purpose type="inform" degree="high" />
+				<preparedness type="none" />		<!-- il testo non richiede particolari prerequisiti per
+				essere compreso-->
+				<purpose type="inform" degree="high" />  <!-- contenuto informativo (alta
+				informazione)-->
 			</textDesc>
 			<settingDesc>
 				<setting>
@@ -101,9 +123,11 @@
 		</profileDesc>
 	</teiHeader>
 	<facsimile>
-		<surface n="1" xml:id="Pag110">
-			<graphic url="Pag110.jpeg" width="772px" height="1024px" xml:id="P110Intera" />
-			<zone ulx="103" uly="84" lrx="644" lry="138" xml:id="P110Riga1" />
+		<surface n="1" xml:id="Pag110"> 														<!-- identificatore (id) univoco della pagina-->
+			<graphic url="Pag110.jpeg" width="772px" height="1024px" xml:id="P110Intera" />     <!--
+			indica la pagina che si sta codificando-->
+			<zone ulx="103" uly="84" lrx="644" lry="138" xml:id="P110Riga1" />					<!-- coordinate dei
+			punti in alto a sinistra e in basso a destra-->
 			<zone ulx="94" uly="134" lrx="663" lry="177" xml:id="P110Riga2" />
 			<zone ulx="103" uly="175" lrx="661" lry="221" xml:id="P1110Riga3" />
 			<zone ulx="97" uly="210" lrx="637" lry="257" xml:id="P110Riga4" />
@@ -201,9 +225,14 @@
 	<text xml:lang="it" xml:id="Pag156-153-173" subtype="manuscript">
 		<body>
 			<div type="pagina" n="110">
-				<pb n="110" facs="#P110Intera" />
-				<ab type="pericope" n="1" xml:id="Pag110Pericope1">
-					<lb xml:id="P110R1" n="1" facs="#P110Riga1" />D'altra parte vedo che noi <lb
+				<pb n="110" facs="#P110Intera" />                         <!-- pb (page break), indica l'inizio di una
+				pagina, il facs sta a specificare che è un facsimile della oagina di sopra
+				xml:id:... (nel teiozner)-->
+				<ab type="pericope" n="1" xml:id="Pag110Pericope1">		  <!-- la pericope può essere
+					definita come un periodo completo e rappresentativo, in grado di descrivere e
+					annotare parti del testo in modo specifico-->
+					<lb xml:id="P110R1" n="1"
+						facs="#P110Riga1" />D'altra parte vedo che noi <lb
 						xml:id="P110R2" n="2" facs="#P110Riga2" />persone pulite<pc type="comma">,</pc>
 					anche se non <lb xml:id="P110R3" n="3" facs="#P110Riga3" />ci lavassimo per un
 					mese<pc type="comma">,</pc>
@@ -213,10 +242,15 @@
 					.</pc>
 				</ab>
 				<ab type="pericope" n="2" xml:id="Pag110Pericope2"> Poi andai ad <lb xml:id="P110R7"
-						n="7" facs="#P110Riga7" /><del rend="overstrike"><gap atLeast="4" atMost="7"
-							unit="chars" reason="illegible" /></del>a parlare al parroco <lb
-						xml:id="P110R8" n="8" facs="#P110Riga8" />sulla spia <del rend="overstrike"><gap
-							atLeast="2" atMost="3" unit="words" reason="illegible" /></del><pc
+						n="7" facs="#P110Riga7" /><del rend="overstrike">
+						<gap atLeast="4" atMost="7"
+							unit="chars" reason="illegible" />
+					</del>a parlare al
+					parroco <lb
+						xml:id="P110R8" n="8" facs="#P110Riga8" />sulla spia <del rend="overstrike">
+						<gap
+							atLeast="2" atMost="3" unit="words" reason="illegible" />
+					</del><pc
 						type="dot">.</pc>
 				</ab>
 				<ab type="pericope" n="3" xml:id="Pag110Pericope3">
@@ -229,10 +263,12 @@
 						facs="#P110Riga13" />e assicurandogli che la banda <lb xml:id="P110R14"
 						n="14" facs="#P110Riga14" />era in perfetta efficienza<pc type="comma">,</pc>
 					poi <lb xml:id="P110R15" n="15" facs="#P110Riga15" /><del
-						rend="overstrike"><gap atLeast="1" atMost="2" unit="chars"
-							reason="illegible" /></del> concludendo <add place="above">
-					effettivamente</add> ora le parlo <lb xml:id="P110R16" n="16" facs="#P110Riga16" />come
-					in confessione<pc type="dot">.</pc>
+						rend="overstrike">
+						<gap atLeast="1" atMost="2" unit="chars"
+							reason="illegible" />
+					</del> concludendo <add
+						place="above"> effettivamente</add> ora le parlo <lb xml:id="P110R16" n="16"
+						facs="#P110Riga16" />come in confessione<pc type="dot">.</pc>
 				</ab>
 				<ab type="pericope" n="4" xml:id="Pag110Pericope4"> Il sangue dei <lb
 						xml:id="P110R17" n="17" facs="#P110Riga17" />due civili caduti ricade sulle <gap
@@ -245,11 +281,15 @@
 						facs="#P110Riga19" />e gli chiesi informazioni su R<pc type="dot">.</pc>
 					<lb
 						xml:id="P110R20" n="20" facs="#P110Riga20" />P<pc type="dot">.</pc>ma <del
-						rend="overstrike"><gap quantity="2" unit="words" reason="illegible" /></del>
+						rend="overstrike">
+						<gap quantity="2" unit="words" reason="illegible" />
+					</del>
 					risultò che non <del rend="overstrike">era</del>
 					<lb xml:id="P110R21" n="21"
-						facs="#P110Riga21" />dubitava da anni <del rend="overstrike"><gap
-							atLeast="2" atMost="3" unit="words" reason="illegible" /></del>
+						facs="#P110Riga21" />dubitava da anni <del rend="overstrike">
+						<gap
+							atLeast="2" atMost="3" unit="words" reason="illegible" />
+					</del>
 					<lb
 						xml:id="P110R22" n="22" facs="#P110Riga22" />torno in infermeria dove trovo <lb
 						xml:id="P110R23" n="23" facs="#P110Riga23" /> G<pc type="dot">.</pc> tornato
@@ -319,11 +359,17 @@
 					<lb
 						xml:id="P156R28" n="28" facs="#P156Riga28" /> ma <persName>Rob</persName>
 					gli ha fatto capire che <del
-						rend="overstrike"><gap atLeast="4" atMost="6" unit="chars"
-							reason="illegible" /></del>
-					<lb xml:id="P156R29" n="29"
-						facs="#P156Riga29" /> <del rend="overstrike"><gap quantity="2" unit="chars"
-							reason="illegible" /></del> vigilia della vittoria non vuole <lb
+						rend="overstrike">
+						<gap atLeast="4" atMost="6" unit="chars"
+							reason="illegible" />
+					</del>
+					<lb xml:id="P156R29"
+						n="29"
+						facs="#P156Riga29" /> <del rend="overstrike">
+						<gap quantity="2" unit="chars"
+							reason="illegible" />
+					</del> vigilia della vittoria
+					non vuole <lb
 						xml:id="P156R30" n="30" facs="#P156Riga30" /> cedere ad altri il posto e la
 					gloria<pc type="dot">.</pc>
 				</ab>
@@ -336,23 +382,31 @@
 					Z<pc type="dot">.</pc></persName> sia <gap atLeast="4" atMost="5" unit="chars"
 						reason="illegible" /><pc type="comma">,</pc>
 					<lb xml:id="P157R2" n="2"
-						facs="#P157Riga2" /> <del rend="overstrike"><gap atLeast="2" atMost="3"
-							unit="chars" reason="illegible" /></del> lo supererei, dando prova di <lb
+						facs="#P157Riga2" /> <del rend="overstrike">
+						<gap atLeast="2" atMost="3"
+							unit="chars" reason="illegible" />
+					</del> lo
+					supererei, dando prova di <lb
 						xml:id="P157R3" n="3" facs="#P157Riga3" /> spirito di tolleranza<pc
 						type="comma">,</pc> ma mettendogli <lb xml:id="P157R4" n="4"
 						facs="#P157Riga4" /> alle costole G<pc type="dot">.</pc> che lo sorvegli
 					sempre<pc type="dot">.</pc>
 				</ab>
 				<ab type="pericope" n="2" xml:id="Pag157Pericope2">
-					<lb xml:id="P157R5" n="5" facs="#P157Riga5" /> <del rend="overstrike"><gap
-							atLeast="5" atMost="7" unit="chars" reason="illegible" /></del>
+					<lb xml:id="P157R5" n="5" facs="#P157Riga5" /> <del rend="overstrike">
+						<gap
+							atLeast="5" atMost="7" unit="chars" reason="illegible" />
+					</del>
 					Prevedendo che la caduta di <lb xml:id="P157R6" n="6" facs="#P157Riga6" /> <persName>
 					Rob</persName> deve essere imminente<pc type="comma">,</pc> io ho creduto <lb
 						xml:id="P157R7"
 						n="7" facs="#P157Riga7" /> opportuno ieri mattina di esporgli tutte <lb
 						xml:id="P157R8" n="8" facs="#P157Riga8" /> le lagnanze <del
-						rend="overstrike"><gap atLeast="2" atMost="3" unit="chars"
-							reason="illegible" /></del> e degli altri cominciando<pc>:</pc>
+						rend="overstrike">
+						<gap atLeast="2" atMost="3" unit="chars"
+							reason="illegible" />
+					</del> e degli altri
+					cominciando<pc>:</pc>
 					<lb
 						xml:id="P157R9" n="9" facs="#P157Riga9" /> <pc type="comma">-</pc> sai che io
 					sono l'unica persona che ti <lb xml:id="P157R10" n="10" facs="#P157Riga10" />
@@ -366,11 +420,17 @@
 					<lb xml:id="P157R13" n="13" facs="#P157Riga13" /> Decine di colloqui con l'uno e
 					con l'altro<pc type="dot">.</pc>
 					<lb xml:id="P157R14" n="14" facs="#P157Riga14" />
-					Nello<pc type="comma">,</pc> <del rend="overstrike"><gap atLeast="10" atMost="12"
-							unit="chars" reason="illegible" /></del> offeso dalla sua defenestra<lb
+					Nello<pc type="comma">,</pc> <del rend="overstrike">
+						<gap atLeast="10" atMost="12"
+							unit="chars" reason="illegible" />
+					</del> offeso
+					dalla sua defenestra<lb
 						break="no" />zione <lb xml:id="P157R15" n="15" facs="#P157Riga15" /> <pc
-						type="comma">,</pc> ieri si è <del rend="overstrike"><gap atLeast="3"
-							atMost="4" unit="chars" reason="illegible" /></del> accapigliato da <lb
+						type="comma">,</pc> ieri si è <del rend="overstrike">
+						<gap atLeast="3"
+							atMost="4" unit="chars" reason="illegible" />
+					</del>
+					accapigliato da <lb
 						xml:id="P157R16" n="16" facs="#P157Riga16" /> <persName>Rob</persName> in
 					piazza e farà la sua relazione <lb xml:id="P157R17" n="17" facs="#P157Riga17" /> <del
 						rend="overstrike">ad A</del> a Giorgio A<pc
@@ -482,7 +542,8 @@
 				<listPlace>
 					<place xml:id="milano">
 						<placeName ref="https://it.wikipedia.org/wiki/Milano"> Milano </placeName>
-						<settlement type="region"> Lombardia </settlement>
+						<settlement type="region"> Lombardia </settlement>         <!-- utilizzato per
+						indicare un' area abitata, in questo caso regione-->
 						<country> Italia </country>
 					</place>
 					<place xml:id="torino">
