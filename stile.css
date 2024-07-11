@@ -172,18 +172,19 @@ gap {
     padding: 0 5px;
 }
 
-persname {
-    background-color: #2196f3;
+expan {
+    background-color: #945aff;
     padding: 0 5px;
-    color: #fff;
 }
+
 
 del,
 gap,
-persname,
-add {
+add,
+expan {
     display: none;
 }
+
 
 #btn-add {
     background-color: #ffc107;
@@ -210,6 +211,22 @@ add {
 
 #btn-gap {
     background-color: #ff5722;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-abbr {
+    background-color: #90d464;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn-expan {
+    background-color: #945aff;
     padding: 5px 10px;
     border-radius: 10px;
     border: none;
@@ -270,6 +287,10 @@ footer h3 {
 .legend .persname {
     background-color: #2196f3;
     color: #fff;
+}
+
+.legend .abbr {
+    background-color: #800000;
 }
 
 footer {

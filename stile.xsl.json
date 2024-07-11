@@ -47,11 +47,12 @@
                     <div id="info">
                         <article>
                             <div>
-                                <h2>Descrizione</h2>
+                                <h2>Informazioni</h2>
                                 <xsl:apply-templates select="//tei:origin" />
                                 <xsl:apply-templates select="//tei:acquisition" />
-                                <xsl:apply-templates select="//tei:sourceDesc" />
+                                <h2>Descrizione</h2>
                                 <xsl:apply-templates select="//tei:physDesc" />
+                                <xsl:apply-templates select="//tei:setting"></xsl:apply-templates>
                             </div>
                         </article>
 
@@ -62,8 +63,6 @@
                                 <button id="btn-del">Cancellazioni</button>
                                 <button id="btn-gap">Gap</button>
                                 <button id="btn-persname">Persone</button>
-                                <button id="btn-abbr">Abbreviazioni</button>
-                                <button id="btn-expan">Espansioni</button>
                                 <button id="btn-hide">Nascondi tutto</button>
                             </div>
                         </div>
@@ -167,37 +166,36 @@
     </xsl:template>
 
     <xsl:template match="tei:sourceDesc">
-        <h3>Informazioni</h3>
+        <h2>Source Description</h2>
         <xsl:apply-templates select="current()/tei:msDesc" />
     </xsl:template>
 
     <xsl:template match="tei:msDesc">
-        <p>Nazione: <xsl:value-of select="current()/tei:msIdentifier/tei:country" /></p>
-        <p> Città: <xsl:value-of
-                select="current()/tei:msIdentifier/tei:settlement" /></p>
-        <p> Ente conservatore: <xsl:value-of
-                select="current()/tei:msIdentifier/tei:repository" /></p>
+        <p>Country: <xsl:value-of select="current()/tei:msIdentifier/tei:country" /></p>
+        <p>
+        Settlement: <xsl:value-of select="current()/tei:msIdentifier/tei:settlement" /></p>
+        <p>
+        Repository: <xsl:value-of select="current()/tei:msIdentifier/tei:repository" /></p>
+        <xsl:apply-templates
+            select="current()/tei:physDesc" />
+        <xsl:apply-templates select="current()/tei:history" />
     </xsl:template>
 
-
-    <xsl:template match="tei:extent">
-        <h4>Composizione</h4>
-        <xsl:apply-templates />
+    <xsl:template match="tei:physDesc">
+        <h3>Physical Description</h3>
+        <p>Material: <xsl:value-of
+                select="current()/tei:supportDesc/@material" /></p>
+        <p>Extent: <xsl:value-of
+                select="current()/tei:supportDesc/tei:extent" /></p>
+        <p>Condition: <xsl:value-of
+                select="current()/tei:supportDesc/tei:condition" /></p>
     </xsl:template>
 
-    <xsl:template match="tei:condition">
-        <h4>Condizioni</h4>
-        <xsl:apply-templates />
-    </xsl:template>
-
-    <xsl:template match="tei:layout">
-        <h4>Layout</h4>
-        <xsl:apply-templates />
-    </xsl:template>
-
-    <xsl:template match="tei:typeDesc">
-        <h4>Caratteristiche</h4>
-        <xsl:apply-templates />
+    <xsl:template match="tei:history">
+        <h3>History</h3>
+        <xsl:apply-templates select="current()/tei:origin" />
+        <xsl:apply-templates
+            select="current()/tei:acquisition" />
     </xsl:template>
 
     <xsl:template match="tei:origin">
@@ -216,8 +214,7 @@
         <br />
         <xsl:element name="span">
             <b>
-                <xsl:value-of select="@n" /> <!--num
-                riga - valore testuale (ultima foglia)-->
+                <xsl:value-of select="@n" />
             </b>
         </xsl:element>
     </xsl:template>
@@ -242,18 +239,6 @@
         <xsl:element name="div">
             <xsl:attribute name="id">pag_<xsl:value-of select="current()/@n" /></xsl:attribute>
         </xsl:element>
-    </xsl:template>
-
-    <xsl:template match="tei:abbr">
-        <abbr>
-            <xsl:apply-templates />
-        </abbr>
-    </xsl:template>
-
-    <xsl:template match="tei:expan">
-        <expan>
-            <xsl:apply-templates />
-        </expan>
     </xsl:template>
 
     <xsl:template match="tei:persName">
